@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FORMULÁRIO DE CONTATO</title>
+	<link rel="shortcut icon" href="imagens/icone.png">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	<body>
+		<main>
+		<h1>Formulário para Contato</h1>
+		<form name="form-cadatro" method="get" action="http://www.professorburnes.com.br/teste-form.php">
+			<label for="nome">Digite seu nome:</label>
+			<input type="text" name="nome" id="nome" size="50" maxlength="40" placeholder="Digite seu nome completo." autocomplete="off" required class="formulario">
+			<br>
+			<label for="email">Digite seu e-mail:</label>
+			<input type="email" name="email" id="email" maxlength="50" placeholder="Digite um e-mail válido" autocomplete="off" required class="formulario" inputmode="email">
+			<label for="telefone">Digite seu telefone:</label>
+			<input type="tel" name="telefone" id="telefone" autocomplete="off" required class="formulario" placeholder="(11) 91234-5678">
+			<br><br> 
+			<label for="mensagem">Digite sua mensagem:</label>
+			<textarea name="mensagem" id="mensagem" required placeholder="Digite sua mensagem" class="formulario" rows="5"></textarea>
+
+			<button type="submit" class="btn-submit">
+				Enviar Informações
+			</button>
+			<button type="reset" class="btn-reset">
+				Redefinir
+			</button>
+		</form>
+		<br><br>
+</main>
+</head>
+</body>
+<footer>
+	<a href="index.html" title="Voltar"> <i class="fa-solid fa-left-long"></i></a>	
+		<p>
+			<a href="https://facebook.com" title="Facebook">
+				<i class="fa-brands fa-facebook"></i>
+			</a>
+			<a href="https://instagram.com" title="Instagram">
+				<i class="fa-brands fa-instagram"></i>
+			</a>
+			<a href="https://twitter.com" title="Twitter">
+				<i class="fa-brands fa-twitter"></i>
+			</a>
+		</p>
+		<br>Produzido por Paulo®<br>Todos os direitos reservados.<p>
+</footer>
+</html>
